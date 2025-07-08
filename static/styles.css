@@ -1,0 +1,15 @@
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+#dropzone {
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+#resultImage {
+    transition: opacity 0.3s ease;
+}
+
+#resultImage:hover {
+    transform: scale(1.02);
+}
